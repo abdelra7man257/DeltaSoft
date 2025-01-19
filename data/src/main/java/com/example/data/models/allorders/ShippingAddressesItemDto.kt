@@ -1,6 +1,6 @@
 package com.example.data.models.allorders
 
-import com.example.domain.model.ShippingAddressesItem
+import com.example.domain.model.allorders.ShippingAddressesItem
 import com.google.gson.annotations.SerializedName
 
 data class ShippingAddressesItemDto(

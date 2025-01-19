@@ -1,5 +1,7 @@
 package com.example.data.webservices
 
+import com.example.data.models.confirmorder.ConfirmOrderBodyParam
+import com.example.data.models.confirmorder.ConfirmOrderResponseDto
 import com.example.data.models.allorders.AllOrdersBodyParamsDto
 import com.example.data.models.allorders.AllOrdersResponseDto
 import com.example.data.models.searchproducts.SearchProductBodyParams
@@ -18,4 +20,9 @@ interface WebService {
     suspend fun searchProducts(
         @Body searchProductBody: SearchProductBodyParams
     ): List<SearchProductResponseDto?>?
+
+    @POST("CreateOrder")
+    suspend fun confirmOrder(
+        @Body confirmOrderBody: ConfirmOrderBodyParam
+    ): ConfirmOrderResponseDto
 }

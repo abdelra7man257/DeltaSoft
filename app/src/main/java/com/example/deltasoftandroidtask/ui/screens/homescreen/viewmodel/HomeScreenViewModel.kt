@@ -1,15 +1,12 @@
 package com.example.deltasoftandroidtask.ui.screens.homescreen.viewmodel
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.example.deltasoftandroidtask.common.UiState
-import com.example.domain.model.ItemsItem
+import com.example.domain.model.allorders.ItemsItem
 import com.example.domain.usecase.GetAllOrdersWithPagingUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.launch

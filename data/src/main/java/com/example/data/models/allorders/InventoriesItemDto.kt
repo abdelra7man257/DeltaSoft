@@ -1,6 +1,6 @@
 package com.example.data.models.allorders
 
-import com.example.domain.model.InventoriesItem
+import com.example.domain.model.allorders.InventoriesItem
 import com.google.gson.annotations.SerializedName
 
 data class InventoriesItemDto(

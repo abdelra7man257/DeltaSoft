@@ -1,9 +1,7 @@
 package com.example.domain.repository.contracts
 
 import androidx.paging.PagingData
-import com.example.domain.model.AllOrders
-import com.example.domain.model.AllOrdersBodyParams
-import com.example.domain.model.ItemsItem
+import com.example.domain.model.allorders.ItemsItem
 import kotlinx.coroutines.flow.Flow
 
 interface AllOrdersRepository {

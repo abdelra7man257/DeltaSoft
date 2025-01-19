@@ -4,10 +4,8 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import com.example.data.datasource.contracts.AllOrdersDataSource
-import com.example.data.datasource.implementation.AllOrdersPagingSource
-import com.example.domain.model.AllOrders
-import com.example.domain.model.AllOrdersBodyParams
-import com.example.domain.model.ItemsItem
+import com.example.data.datasource.implementation.paging.AllOrdersPagingSource
+import com.example.domain.model.allorders.ItemsItem
 import com.example.domain.repository.contracts.AllOrdersRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject

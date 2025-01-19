@@ -1,4 +1,4 @@
-package com.example.domain.model
+package com.example.domain.model.allorders
 
 import kotlinx.parcelize.Parcelize
 import android.os.Parcelable

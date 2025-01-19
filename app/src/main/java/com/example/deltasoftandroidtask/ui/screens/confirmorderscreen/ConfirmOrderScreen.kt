@@ -1,4 +1,4 @@
-package com.example.deltasoftandroidtask.ui.screens
+package com.example.deltasoftandroidtask.ui.screens.confirmorderscreen
 
 import ConfirmationDialogComposable
 import androidx.compose.foundation.background

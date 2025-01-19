@@ -1,8 +1,10 @@
 package com.example.data.datasource.di
 
 import com.example.data.datasource.contracts.AllOrdersDataSource
+import com.example.data.datasource.contracts.ConfirmOrderDataSource
 import com.example.data.datasource.contracts.SearchProductDataSource
 import com.example.data.datasource.implementation.AllOrderDataSourceImpl
+import com.example.data.datasource.implementation.ConfirmOrderDataSourceImpl
 import com.example.data.datasource.implementation.SearchProductsDataSourceImpl
 import dagger.Binds
 import dagger.Module
@@ -16,6 +18,10 @@ interface Di {
     fun bindAllOrdersDataSource(allOrderDataSourceImpl: AllOrderDataSourceImpl): AllOrdersDataSource
 
     @Binds
-    fun bindAllOrdersRepository(searchProductsDataSourceImpl: SearchProductsDataSourceImpl): SearchProductDataSource
+    fun bindSearchProductsData(searchProductsDataSourceImpl: SearchProductsDataSourceImpl): SearchProductDataSource
+
+    @Binds
+    fun bindConfirmOrderDataSource(confirmOrderDataSourceImpl: ConfirmOrderDataSourceImpl): ConfirmOrderDataSource
+
 
 }

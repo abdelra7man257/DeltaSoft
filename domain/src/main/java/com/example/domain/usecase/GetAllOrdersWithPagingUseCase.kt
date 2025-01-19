@@ -1,6 +1,5 @@
 package com.example.domain.usecase
 
-import com.example.domain.model.AllOrdersBodyParams
 import com.example.domain.repository.contracts.AllOrdersRepository
 import javax.inject.Inject
 

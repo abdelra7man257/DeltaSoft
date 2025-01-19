@@ -1,6 +1,6 @@
 package com.example.data.models.allorders
 
-import com.example.domain.model.CustomerUser
+import com.example.domain.model.allorders.CustomerUser
 import com.google.gson.annotations.SerializedName
 
 data class CustomerUserDto(

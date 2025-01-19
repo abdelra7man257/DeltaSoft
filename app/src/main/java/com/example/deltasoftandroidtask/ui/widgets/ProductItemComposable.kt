@@ -62,7 +62,8 @@ fun ProductItemComposable(modifier: Modifier = Modifier , searchProductResponseI
             }
             Text(
                 text = searchProductResponseItem?.name.toString(),
-                modifier = Modifier.fillMaxWidth()
+                modifier = Modifier.fillMaxWidth(),
+                maxLines = 1,
 
             )
             Text(

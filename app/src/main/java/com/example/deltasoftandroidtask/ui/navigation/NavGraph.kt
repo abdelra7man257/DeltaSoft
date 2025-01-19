@@ -5,10 +5,10 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.deltasoftandroidtask.ui.screens.ConfirmOrderScreen
+import com.example.deltasoftandroidtask.ui.screens.confirmorderscreen.ConfirmOrderScreen
 import com.example.deltasoftandroidtask.ui.screens.neworderscreen.CreateNewOrderScreen
 import com.example.deltasoftandroidtask.ui.screens.homescreen.HomeScreen
-import com.example.deltasoftandroidtask.ui.screens.OrderDetailsScreen
+import com.example.deltasoftandroidtask.ui.screens.orderdetailsscreen.OrderDetailsScreen
 
 @Composable
 fun NavigationGraphComposable(modifier: Modifier = Modifier ,navController: NavHostController, startDestination: Routes = Routes.HomeScreen) {

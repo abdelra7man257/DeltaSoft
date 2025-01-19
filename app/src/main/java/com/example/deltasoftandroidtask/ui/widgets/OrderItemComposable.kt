@@ -20,13 +20,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.example.deltasoftandroidtask.R
 import com.example.deltasoftandroidtask.ui.theme.DeltaSoftAndroidTaskTheme
-import com.example.domain.model.ItemsItem
+import com.example.domain.model.allorders.ItemsItem
 
 @Composable
 fun OrderItemComposable(modifier: Modifier = Modifier , onClick: () -> Unit = {},item: ItemsItem? = null) {

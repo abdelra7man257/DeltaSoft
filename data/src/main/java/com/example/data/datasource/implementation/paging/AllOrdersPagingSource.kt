@@ -1,10 +1,10 @@
-package com.example.data.datasource.implementation
+package com.example.data.datasource.implementation.paging
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import com.example.data.datasource.contracts.AllOrdersDataSource
 import com.example.data.models.allorders.AllOrdersBodyParamsDto
-import com.example.domain.model.ItemsItem
+import com.example.domain.model.allorders.ItemsItem
 import javax.inject.Inject
 
 class AllOrdersPagingSource @Inject constructor(private val allOrdersDataSource: AllOrdersDataSource) :
